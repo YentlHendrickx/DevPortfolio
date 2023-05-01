@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22b8a37a.chunk.css",
+    "main.js": "/static/js/main.efa339e7.chunk.js",
+    "main.js.map": "/static/js/main.efa339e7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22403911.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22403911.js.map",
+    "static/js/2.f4613885.chunk.js": "/static/js/2.f4613885.chunk.js",
+    "static/js/2.f4613885.chunk.js.map": "/static/js/2.f4613885.chunk.js.map",
+    "static/js/3.c78d0bee.chunk.js": "/static/js/3.c78d0bee.chunk.js",
+    "static/js/3.c78d0bee.chunk.js.map": "/static/js/3.c78d0bee.chunk.js.map",
+    "static/js/4.a9f3c9aa.chunk.js": "/static/js/4.a9f3c9aa.chunk.js",
+    "static/js/4.a9f3c9aa.chunk.js.map": "/static/js/4.a9f3c9aa.chunk.js.map",
+    "static/js/5.79e62ce4.chunk.js": "/static/js/5.79e62ce4.chunk.js",
+    "static/js/5.79e62ce4.chunk.js.map": "/static/js/5.79e62ce4.chunk.js.map",
+    "static/js/6.c9461527.chunk.js": "/static/js/6.c9461527.chunk.js",
+    "static/js/6.c9461527.chunk.js.map": "/static/js/6.c9461527.chunk.js.map",
+    "static/js/7.4c8675ff.chunk.js": "/static/js/7.4c8675ff.chunk.js",
+    "static/js/7.4c8675ff.chunk.js.map": "/static/js/7.4c8675ff.chunk.js.map",
+    "static/js/8.4a2bce9f.chunk.js": "/static/js/8.4a2bce9f.chunk.js",
+    "static/js/8.4a2bce9f.chunk.js.map": "/static/js/8.4a2bce9f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.22b8a37a.chunk.css.map": "/static/css/main.22b8a37a.chunk.css.map",
+    "static/js/2.f4613885.chunk.js.LICENSE.txt": "/static/js/2.f4613885.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
+    "static/media/developer-dark.3f07bd13.svg": "/static/media/developer-dark.3f07bd13.svg",
+    "static/media/developer.ef097afb.svg": "/static/media/developer.ef097afb.svg",
+    "static/media/memorylogMain.5f6a3f3d.png": "/static/media/memorylogMain.5f6a3f3d.png",
+    "static/media/minesweeperSolver.b9321464.png": "/static/media/minesweeperSolver.b9321464.png",
+    "static/media/mobile-project-1.0aa0cb76.jpg": "/static/media/mobile-project-1.0aa0cb76.jpg",
+    "static/media/mobile-project-2.a5aae786.jpg": "/static/media/mobile-project-2.a5aae786.jpg",
+    "static/media/ui-project-1.41def4d8.jpg": "/static/media/ui-project-1.41def4d8.jpg",
+    "static/media/ui-project-2.d2891914.jpg": "/static/media/ui-project-2.d2891914.jpg",
+    "static/media/web-project-1.dbc2198e.jpg": "/static/media/web-project-1.dbc2198e.jpg",
+    "static/media/web-project-2.f0108702.jpg": "/static/media/web-project-2.f0108702.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22403911.js",
+    "static/js/2.f4613885.chunk.js",
+    "static/css/main.22b8a37a.chunk.css",
+    "static/js/main.efa339e7.chunk.js"
+  ]
+}

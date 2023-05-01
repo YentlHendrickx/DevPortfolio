@@ -5,55 +5,34 @@ import Image3 from '../images/mobile-project-2.jpg';
 import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
+
+import MemoryLogRelations from '../images/memorylogMain.png';
+
 // Import icons
 import {
 	FiFacebook,
 	FiInstagram,
 	FiLinkedin,
 	FiTwitter,
-	FiYoutube,
 } from 'react-icons/fi';
 
 export const singleProjectData = {
 	ProjectHeader: {
 		title: 'Application for patients with Alzheimers',
 		publishDate: 'May 1, 2023',
-		tags: 'Full-Stack',
+		tags: 'Full-Stack, Laravel, PHP',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Kabul Project Management UI',
-			img: Image1,
+			title: 'Relationship management',
+			img: MemoryLogRelations,
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: '',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'Create a web application that makes it easy for Alzheimers patients to follow up on their medication. Have a diary that anyone can write in, and supply a calender',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -61,9 +40,7 @@ export const singleProjectData = {
 					'HTML',
 					'CSS',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'PHP Laravel',
 				],
 			},
 		],
@@ -96,13 +73,13 @@ export const singleProjectData = {
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				url: 'https://twitter.com/',
 			},
 			{
 				id: 2,
 				name: 'Instagram',
 				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
+				url: 'https://instagram.com/',
 			},
 			{
 				id: 3,
