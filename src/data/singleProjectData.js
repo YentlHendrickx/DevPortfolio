@@ -5,7 +5,10 @@ import MemoryLog3 from '../images/memorylog3.png';
 import MinesweeperSolver from '../images/minesweeperSolver.png';
 import MinesweeperSolver2 from '../images/minesweeperSolver2.png';
 import PowershellScraper from '../images/powershellscraper.png';
-import CryptoTracker from '../images/cryptotracker.png';
+import CryptoTracker from '../images/cryptotracker5.png';
+import CryptoTracker2 from '../images/cryptotracker2.png';
+import CryptoTracker3 from '../images/cryptotracker3.png';
+import CryptoTracker4 from '../images/cryptotracker4.png';
 
 // Import icons
 import {
@@ -159,6 +162,174 @@ export const singleProjectData = [{
                         <iframe class="mb-3"width="100%" height="500"
                             src="https://www.youtube.com/embed/Xdl5DMS1crw">
                         </iframe>`      
+			},
+		],
+		SocialSharingHeading: 'Share This',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Twitter',
+				icon: <FiTwitter />,
+				url: 'https://twitter.com/',
+			},
+			{
+				id: 2,
+				name: 'Instagram',
+				icon: <FiInstagram />,
+				url: 'https://instagram.com/',
+			},
+			{
+				id: 3,
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/',
+			},
+			{
+				id: 4,
+				name: 'LinkedIn',
+				icon: <FiLinkedin />,
+				url: 'https://linkedin.com/',
+			},
+		],
+	},
+},{
+	ProjectHeader: {
+		title: 'PowerShell Twitter Scraper',
+		publishDate: 'May 1, 2023',
+		tags: 'PowerShell, Commandline',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'Tweet Graph',
+			img: PowershellScraper,
+		},
+	],
+	ProjectInfo: {
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails:
+			`Create a Twitter tweet scraper in PowerShell, that gets x amount of tweets from a user and displays it in a graph based on daily frequency.`,
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'PowerShell, Twitter API',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Details',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+                   `
+                        <p class="dark:text-primary-light text-primary-dark">As a case study for the Windows System Administration course at Thomas More, I created a PowerShell Script that outputs the tweet frequency for a specific handle (@).
+                            It's entirely written in PowerShell and makes use of the Twitter API in order to fetch the tweets.</p>
+
+                        <p class="dark:text-primary-light text-primary-dark">A user can input the handle (@) followed by the number of Tweets to fetch and above graph will be displayed.</p>
+                        
+                        <p class="dark:text-primary-light text-primary-dark mt-5">During this project I learned how to use the Twitter API, how to plot graphs using PowerShell and just how powerful of a tool PowerShell really is.</p>
+
+                        <h3 class="text-center text-lg dark:text-primary-light text-primary-dark mt-5">Demonstration (Dutch)</h3>
+                        <hr class="dark:border-secondary-dark border-secondary-light mb-3"/>
+                        <iframe class="mb-3"width="100%" height="500"
+                            src="https://www.youtube.com/embed/qEyXLapWmZ4">
+                        </iframe>
+                    `
+			},
+		],
+		SocialSharingHeading: 'Share This',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Twitter',
+				icon: <FiTwitter />,
+				url: 'https://twitter.com/',
+			},
+			{
+				id: 2,
+				name: 'Instagram',
+				icon: <FiInstagram />,
+				url: 'https://instagram.com/',
+			},
+			{
+				id: 3,
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/',
+			},
+			{
+				id: 4,
+				name: 'LinkedIn',
+				icon: <FiLinkedin />,
+				url: 'https://linkedin.com/',
+			},
+		],
+	},
+},{
+	ProjectHeader: {
+		title: 'Cryptocurrency Tracker',
+		publishDate: 'May 1, 2023',
+		tags: 'Android, Cordova, HTML, CSS, JavaScript',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'Crypto Tracking',
+			img: CryptoTracker,
+		},
+		{
+			id: 2,
+			title: 'Crypto Tracking',
+			img: CryptoTracker2,
+		},
+		{
+			id: 3,
+			title: 'Crypto Tracking',
+			img: CryptoTracker3,
+		},
+		{
+			id: 4,
+			title: 'Crypto Tracking',
+			img: CryptoTracker4,
+		},
+	],
+	ProjectInfo: {
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails:
+			`Create and Android application using Cordova that is capable of tracking different cryptocurrencies.`,
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'Cordova, JavaScript, HTML, CSS',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Details',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+                    `
+                        <p class="dark:text-primary-light text-primary-dark">As a case study for the Cordova course at Thomas More, I created an Android application that allows you to monitor (track) cryptocurrencies.
+                        The entire APP is written using HTML, CSS and JavaScript. I used the CoinGecko Cryptocurrency API to make it all work.</p>
+
+                        <p class="dark:text-primary-light text-primary-dark mt-5">Some of the main features include:
+                            <ul class="dark:text-primary-light text-primary-light">
+                                <li>Adding currencies to favorites</li>
+                                <li>Searching for specific currencies</li>
+                                <li>Sharing some cool info about that currency</li>
+                            </ul>
+                        </p>
+                        
+                        <p class="dark:text-primary-light text-primary-dark mt-5">During this project I learned how to make use of an API in JavaScript, how to properly style for mobile devices and the importance of making your UI as simple as possible.</p>
+
+                        <h3 class="text-center dark:text-primary-light text-primary-dark text-lg mt-5">More Info</h3>
+                        <hr class="dark:border-secondary-dark border-primary-light mb-1"/>
+                        <p class="dark:text-primary-light text-primary-dark"> More info can be found on this page: <a class="font-bold hover:underline" href="https://www.cryptotracker.sinners.be/">cryptotracker.sinners.be</a></p>
+
+                    `
 			},
 		],
 		SocialSharingHeading: 'Share This',

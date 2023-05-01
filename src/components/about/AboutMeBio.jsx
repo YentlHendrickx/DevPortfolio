@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
+import Me from '../../images/me.jpg';
 
 const AboutMeBio = () => {
 	const { aboutMe } = useContext(AboutMeContext);
@@ -7,7 +8,7 @@ const AboutMeBio = () => {
 	return (
 		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
 			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
-				<img src="" className="rounded-lg w-96" alt="" />
+				<img src={Me} className="rounded-lg w-96" alt="" />
 			</div>
 
 			<div className="font-general-regular w-full sm:w-3/4 text-left">

@@ -30,13 +30,13 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Powershell Twitter Scraper',
+		title: 'PowerShell Twitter Scraper',
 		category: 'Commandline Tool',
 		img: PowershellScraper,
 		ProjectHeader: {
-			title: 'Twitter scraper in Powershell',
+			title: 'Twitter scraper in PowerShell',
 			publishDate: 'May 1, 2023',
-			tags: 'Powershell, commandline',
+			tags: 'PowerShell, commandline',
 		},
 	},
 	{
