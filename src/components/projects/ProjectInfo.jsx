@@ -7,13 +7,6 @@ const ProjectInfo = () => {
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
-				{/* Single project client details */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
-						{singleProjectData.ProjectInfo.ClientHeading}
-					</p>
-				</div>
-
 				{/* Single project objectives */}
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
@@ -70,12 +63,8 @@ const ProjectInfo = () => {
 				</p>
 				{singleProjectData.ProjectInfo.ProjectDetails.map((details) => {
 					return (
-						<p
-							key={details.id}
-							className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-						>
-							{details.details}
-						</p>
+                        <div dangerouslySetInnerHTML={{__html: details.details}} >
+                        </div>
 					);
 				})}
 			</div>

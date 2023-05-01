@@ -24,17 +24,6 @@ const ProjectsGrid = () => {
 			</div>
 
 			<div className="mt-6 sm:mt-4">
-				<h3
-					className="font-general-regular 
-                        text-center text-secondary-dark
-                        dark:text-ternary-light
-                        text-md
-                        sm:text-xl
-                        mb-3
-                        "
-				>
-					Search projects by title or filter by category
-				</h3>
 				<div
 					className="
                         flex
@@ -100,6 +89,7 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								id={project.id}
 								key={project.id}
 							/>
 					  ))
@@ -109,6 +99,7 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								id={project.id}
 								key={project.id}
 							/>
 					  ))
@@ -117,6 +108,7 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								id={project.id}
 								key={project.id}
 							/>
 					  ))}
