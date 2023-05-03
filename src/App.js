@@ -4,13 +4,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
-import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import './css/App.css';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Internship = lazy(() => import('./pages/Internship'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
+							<Route path="internship" element={<Internship />} />
 							<Route
 								path="projects/single-project/:id"
 								element={<ProjectSingle />}

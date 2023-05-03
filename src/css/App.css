@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
 	font-family: 'GeneralSans-Variable';
 }
@@ -226,4 +230,79 @@ body {
 	100% {
 		opacity: 0.5;
 	}
+}
+
+
+
+.text-primary-dark {
+  --tw-text-opacity: 1;
+  color: rgb(13 36 56 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-primary-light {
+  --tw-text-opacity: 1;
+  color: rgb(247 248 252 / var(--tw-text-opacity));
+}
+.text-secondary-dark {
+  --tw-text-opacity: 1;
+  color: rgb(16 45 68 / var(--tw-text-opacity));
+}
+.text-ternary-dark {
+  --tw-text-opacity: 1;
+  color: rgb(30 56 81 / var(--tw-text-opacity));
+}
+
+.dark .dark\:border-ternary-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 56 81 / var(--tw-border-opacity));
+}
+.dark .dark\:border-secondary-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(109 93 110 / var(--tw-bg-opacity));
+}
+.dark .dark\:border-primary-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(28 28 26 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-primary-dark {
+  --tw-bg-opacity: 1;
+  /*background-color: rgb(13 36 56 / var(--tw-bg-opacity));*/
+  background-color: rgb(28 28 26 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-nav-dark {
+  --tw-bg-opacity: 1;
+  /*background-color: rgb(13 36 56 / var(--tw-bg-opacity));*/
+  background-color: rgb(24 24 22 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-ternary-dark {
+  --tw-bg-opacity: 1;
+  /*background-color: rgb(30 56 81 / var(--tw-bg-opacity));*/
+  background-color: rgb(35 35 32 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-secondary-dark {
+  --tw-bg-opacity: 1;
+  /*background-color: rgb(16 45 68 / var(--tw-bg-opacity));*/
+  background-color: rgb(48 48 46 / var(--tw-bg-opacity));
+}
+
+.bg-primary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 248 252 / var(--tw-bg-opacity));
+}
+.bg-nav-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 248 / var(--tw-bg-opacity));
+}
+.bg-ternary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 247 248 / var(--tw-bg-opacity));
 }

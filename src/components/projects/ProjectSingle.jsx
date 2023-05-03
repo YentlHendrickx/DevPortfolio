@@ -12,10 +12,11 @@ const ProjectSingle = ({ title, category, image, id }) => {
 				duration: 0.7,
 				delay: 0.15,
 			}}
+            className='mb-4 sm:mb-0'
 		>
 			<Link className='h-full' to={`/projects/single-project/${id}`} aria-label="Single Project">
 				<div className="h-full rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-					<div className="w-auto h-1/2">
+					<div className="w-auto">
 						<img
 							src={image}
 							className="rounded-t-xl border-none"

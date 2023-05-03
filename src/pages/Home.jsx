@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
+import InternshipHome from '../components/internship/InternshipHome.jsx';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
 
@@ -9,6 +10,7 @@ const Home = () => {
 		<div className="container mx-auto">
 			<AppBanner></AppBanner>
 
+            <InternshipHome></InternshipHome>
 			<ProjectsProvider>
 				<ProjectsGrid></ProjectsGrid>
 			</ProjectsProvider>

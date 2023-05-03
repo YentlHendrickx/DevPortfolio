@@ -13,7 +13,6 @@ import CryptoTracker4 from '../images/cryptotracker4.png';
 // Import icons
 import {
 	FiFacebook,
-	FiInstagram,
 	FiLinkedin,
 	FiTwitter,
 } from 'react-icons/fi';
@@ -84,25 +83,19 @@ export const singleProjectData = [{
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: `http://twitter.com/share?text=Check out this awesome project!&url=https://yentl.sinners.be/projects/single-project/2`,
+				url: `http://twitter.com/share?text=Check out this awesome project!&url=https://yentl.sinners.be/projects/single-project/1`,
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/',
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/sharer/sharer.php?u=https://yentl.sinnser.be/projects/single-project/1',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://www.yentl.sinners/be/projects/single-project/2")}`,
+				url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://yentl.sinners/be/projects/single-project/1")}`,
 			},
 		],
 	},
@@ -170,25 +163,19 @@ export const singleProjectData = [{
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/',
+				url: `http://twitter.com/share?text=Check out this awesome project!&url=https://yentl.sinners.be/projects/single-project/2`,
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/',
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/sharer/sharer.php?u=https://yentl.sinnser.be/projects/single-project/2',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+				url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://yentl.sinners/be/projects/single-project/2")}`,
 			},
 		],
 	},
@@ -244,25 +231,19 @@ export const singleProjectData = [{
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/',
+				url: `http://twitter.com/share?text=Check out this awesome project!&url=https://yentl.sinners.be/projects/single-project/3`,
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/',
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/sharer/sharer.php?u=https://yentl.sinnser.be/projects/single-project/3',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+				url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://yentl.sinners/be/projects/single-project/3")}`,
 			},
 		],
 	},
@@ -327,7 +308,7 @@ export const singleProjectData = [{
 
                         <h3 class="text-center dark:text-primary-light text-primary-dark text-lg mt-5">More Info</h3>
                         <hr class="dark:border-secondary-dark border-primary-light mb-1"/>
-                        <p class="dark:text-primary-light text-primary-dark"> More info can be found on this page: <a class="font-bold hover:underline" href="https://www.cryptotracker.sinners.be/">cryptotracker.sinners.be</a></p>
+                        <p class="dark:text-primary-light text-primary-dark"> More info can be found on this page: <a class="font-bold hover:underline" href="https://cryptotracker.sinners.be/">cryptotracker.sinners.be</a></p>
 
                     `
 			},
@@ -338,25 +319,19 @@ export const singleProjectData = [{
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/',
+				url: `http://twitter.com/share?text=Check out this awesome project!&url=https://yentl.sinners.be/projects/single-project/4`,
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/',
+				name: 'Facebook',
+				icon: <FiFacebook />,
+				url: 'https://facebook.com/sharer/sharer.php?u=https://yentl.sinnser.be/projects/single-project/4',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
 				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+				url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://yentl.sinners/be/projects/single-project/4")}`,
 			},
 		],
 	},
