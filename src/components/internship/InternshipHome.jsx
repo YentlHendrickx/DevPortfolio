@@ -49,15 +49,15 @@ const InternshipHome = () => {
                     </div> 
                     <div className="md:col-span-3">
                         <p className="dark:text-primary-light text-primary-dark mx-1 font-medium text-left">
-                            At the end of February 2023 I started my internship at <span className="italic">Vitra Partner Store Antwerp (VPSA)</span>.
-                            During my internship I was tasked with integrating a product configurator into their webshop. Thus making it easier for their customers
-                            to configure the furniture piece exactly how they want it, without intervention from the employees.
+                            At the end of February 2023 I started my internship at <b>Vitra Partner Store Antwerp (VPSA)</b>.
+                            During my internship I was tasked with integrating a <b>product configurator</b> into their <b>webshop</b>. Thus making it easier for their customers
+                            to configure the furniture piece exactly how they want it, without intervention from the employees. For this I used <b>PHP and JavaScript</b>
                         </p>
                         <p className="dark:text-primary-light text-primary-dark font-medium mx-1 mt-5 text-left">
-                            VPSA like it's name implies is a partner store of the <span className="italic">Vitra</span> brand. The store is located in Antwerp, but since the owners
-                            also own <span className="italic">Mastermeubel</span> another furniture store in Turnhout, Belgium. I spent most of my time at Mastermeubel.
-                            During the integration of this tool, I spent almost all of the time working on this project solo. Getting help when needed from the external German partner  
-                            <span className="italic">Eastern Graphics</span> who developed the configurator itself.
+                            VPSA like it's name implies is a partner store of the <b>Vitra</b> brand. The store is located in Antwerp, but since the owners
+                            also own <b>Mastermeubel</b> another furniture store in Turnhout, Belgium. I spent most of my time at Mastermeubel.
+                            During the integration of this tool, I spent almost all of the time working on this project <b>solo</b>. Getting help when needed from the external German partner  
+                            <b>Eastern Graphics</b> who developed the configurator itself.
                         </p>
                         
                     </div> 

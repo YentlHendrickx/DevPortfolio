@@ -4,7 +4,7 @@ import me from '../../images/me.png';
 const contacts = [
 	{
 		id: 1,
-		name: 'Belgium',
+		name: 'Houtvenne, Belgium',
 		icon: <FiMapPin />,
 	},
 	{
@@ -22,7 +22,7 @@ const contacts = [
 const ContactDetails = () => {
 	return (
 		<div className="max-w-2xl mx-auto">
-				<h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
+				<h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-4">
 					Contact details
 				</h2>
 				<div className='w-full grid grid-cols-12'>

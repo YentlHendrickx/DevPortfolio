@@ -54,9 +54,8 @@ const ProjectSingle = () => {
 					>Next Project &rarr;</Link>
                 </div>
 				<ProjectHeader />
-				<ProjectGallery />
 				<ProjectInfo />
-				<ProjectRelatedProjects />
+				<ProjectGallery />
 			</SingleProjectProvider>
 		</motion.div>
 	);

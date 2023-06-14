@@ -78,17 +78,23 @@ const AppBanner = () => {
 							}}
 							className="flex justify-center sm:block"
 						>
-							<a
-								download="Resume-Yentl.pdf"
-								href={CV}
-								className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-								aria-label="Download Resume"
-							>
-								<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
-								<span className="text-sm sm:text-lg font-general-medium duration-100">
-									Download CV
-								</span>
-							</a>
+							<div className='w-xl flex flex-col'>
+								<p className='dark:text-primary-light text-primary-dark text-start max-w-lg'>
+									My name is Yentl Hendrickx and I'm currently enrolled in the <b>Bachelor of Application Development</b> at Thomas More Geel. I have a deep passion for programming and aim to work on as many
+									intriguing projects as possible. I try to continously challenge myself and learn new skills.
+								</p>
+								<a
+									download="Resume-Yentl.pdf"
+									href={CV}
+									className="font-general-medium mx-auto flex justify-center items-center w-36 sm:w-48 mt-4 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+									aria-label="Download Resume"
+								>
+									<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+									<span className="text-sm sm:text-lg font-general-medium duration-100">
+										Download CV
+									</span>
+								</a>
+							</div>
 						</motion.div>
 					</div>
 					<motion.div

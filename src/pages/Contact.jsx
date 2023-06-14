@@ -19,16 +19,20 @@ const Contact = () => {
                     aria-label="About Me"
                 >To About Me &rarr;</Link>
             </div>
-            <motion.div 
+            <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{
                     ease: 'easeInOut',
                     duration: 0.5,
                     delay: 0.1,
-                }}
-                className="flex flex-col-reverse lg:flex-row mt-5">
-                <ContactDetails />
+                }}>
+				<p className="font-general-medium w-full text-center text-2xl sm:text-4xl mt-7 text-ternary-dark dark:text-ternary-light">
+					Contact
+				</p>
+                <div className="flex flex-col-reverse lg:flex-row">
+                    <ContactDetails />
+                </div>
             </motion.div>
 		</div>
 	);

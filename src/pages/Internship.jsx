@@ -1,6 +1,4 @@
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
-import { useInView } from 'react-intersection-observer';
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 //import Button from "../components/reusable/Button";
 
@@ -13,21 +11,7 @@ import realisatie from '../../src/docs/Realisatie_Verslag.pdf';
 import reflectie from '../../src/docs/Reflectie_Verslag.pdf';
 import awsFlow from '../../src/docs/aws_flow.pdf';
 
-const fadeOnVisible = {
-    visible: { opacity: 1,  x: 0, transition: { duration: 1 } },
-    hidden: { opacity: 0, x: -200 },
-};
-
 const Internship = () => {
-    const controls = useAnimation();
-    const [ref, inView] = useInView();
-    
-    useEffect(() => {
-        if (inView) {
-            controls.start("visible");
-        }
-    }, [controls, inView]);
-
 	return (
         <div
 			className="container mx-auto mt-4"
@@ -45,11 +29,14 @@ const Internship = () => {
                 >To Contact &rarr;</Link>
             </div>
             <motion.div 
-                ref={ref}
-                animate={controls}
-                initial="hidden"
-                variants={fadeOnVisible}
-                className="flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10">
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                    ease: 'easeInOut',
+                    duration: 0.5,
+                    delay: 0.1,
+                }}
+                className="flex flex-col-reverse lg:flex-row pb-5 mt-7">
                 <div className="text-center mx-auto">
                     <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
                         Internship
@@ -64,11 +51,11 @@ const Internship = () => {
                             </div> 
                             <div className="">
                                 <p className="dark:text-primary-light text-primary-dark font-medium mx-1 text-left">
-                                    At the end of February 2023 I started my internship at Vitra Partner Store Antwerp (VPSA).
-                                    VPSA like it's name implies is a partner store of the <span className="italic">Vitra</span> brand. The store is located in Antwerp.
-                                    VPSA is operated by <span className="italic">Master Meubel Turnhout</span> another furniture store. I spent most of my time at Master Meubel while developing.
+                                    At the end of February 2023 I started my internship at <b>Vitra Partner Store Antwerp (VPSA)</b>.
+                                    VPSA like it's name implies is a partner store of the <b>Vitra</b> brand. The store is located in Antwerp.
+                                    VPSA is operated by <b>Master Meubel Turnhout</b> another furniture store. I spent most of my time at Master Meubel while developing.
                                     I worked on the project completely alone. Getting help when needed from the external German partner&nbsp;
-                                    <span className="italic">Eastern Graphics</span> who developed the system that needs integration.
+                                    <b>Eastern Graphics</b> who developed the system that needs integration.
                                 </p>
                             </div> 
                             <div className="flex justify-center items-center w-full">
@@ -85,12 +72,13 @@ const Internship = () => {
                             </div> 
                             <div className="">
                                 <p className="dark:text-primary-light text-primary-dark font-medium mx-1 text-left">
-                                    During my internship I was tasked with integrating a product configuration tool.
-                                    This product integration tool (pCon) is developed by <span className="italic">Eastern Graphics</span>.
+                                    During my internship I was tasked with integrating a <b>product configuration tool</b>.
+                                    This product integration tool <b>(pCon)</b> is developed by <b>Eastern Graphics</b>.
+                                    To integrate this tool I used <b>PHP and JavaScript</b>
                               </p>
                               <p className="dark:text-primary-light text-primary-dark font-medium mt-2 mx-1 text-left">
-                                    The VPSA website is a webshop completely made in WordPress. The issue they had is that 
-                                    in the world of design furniture everything can be customized. Colors, materials, different looks of specific parts, etc. all of these can be configured and adapted to the clients needs.
+                                    The VPSA website is a webshop completely made in <b>WordPress</b>. The issue they had is that 
+                                    in the world of design furniture everything can be <b>customized</b>. Colors, materials, different looks of specific parts, etc. all of these can be configured and adapted to the clients needs.
                                     By introducing a product configuration tool on the webshop this problem could be solved efficiently.
                                     No longer is there a need for multiple versions of the same product on the webshop. No longer can certain configurations not be made.
                               </p>
@@ -104,7 +92,6 @@ const Internship = () => {
                     </div>
                     <div className="md:grid md:grid-cols-4 mt-4 gap-x-2">
                     </div>
-
                     <div className="col-span-4 my-4 sm:mt-10 justify-center">
                         <h3 className="text-center dark:text-primary-light text-primary-dark text-lg mt-5">Documents (Dutch)</h3>
                         <hr className="dark:border-secondary-dark border-primary-light mb-1"/>

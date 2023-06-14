@@ -28,6 +28,9 @@ const About = () => {
                     animate={{ opacity: 1, delay: 1 }}
                     exit={{ opacity: 0 }}
                 >
+					<p className="font-general-medium w-full text-center text-2xl sm:text-4xl mb-1 mt-7 text-ternary-dark dark:text-ternary-light">
+						About Me
+					</p>
                     <AboutMeBio />
                 </motion.div>
 			</div>
