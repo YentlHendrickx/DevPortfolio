@@ -17,7 +17,7 @@ const ProjectSingle = () => {
 	url = Number(url);
 	url += 1;
 
-	if (singleProjectData[url] === undefined) {
+	if (singleProjectData[url - 1] === undefined) {
 		url = 1;
 	}
 
