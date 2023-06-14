@@ -25,6 +25,7 @@ const ProjectSingle = () => {
 		this.forceUpdate();
 	}
 
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
