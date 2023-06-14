@@ -6,6 +6,9 @@ import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+
+import { singleProjectData } from '../data/singleProjectData';
+
 const ProjectSingle = () => {
 
 	let url = window.location.href;
@@ -13,6 +16,10 @@ const ProjectSingle = () => {
 	url = url[url.length - 1];
 	url = Number(url);
 	url += 1;
+
+	if (singleProjectData[url] === undefined) {
+		url = 1;
+	}
 
 	function triggerRender() {
 		this.forceUpdate();
