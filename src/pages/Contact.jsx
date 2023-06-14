@@ -1,22 +1,36 @@
 import { motion } from 'framer-motion';
 import ContactDetails from '../components/contact/ContactDetails';
-import ContactForm from '../components/contact/ContactForm';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
 	return (
-		<motion.div
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			transition={{
-				ease: 'easeInOut',
-				duration: 0.5,
-				delay: 0.1,
-			}}
-			className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"
+		<div
+			className="container mx-auto mt-4"
 		>
-			<ContactForm />
-			<ContactDetails />
-		</motion.div>
+            <div className="w-full flex flex-row justify-between">
+                <Link
+                    to="/"
+                    className="dark:text-primary-light text-primary-dark font-medium hover:underline"
+                    aria-label="Home"
+                >&larr; To Home</Link>
+                <Link
+                    to="/about"
+                    className="dark:text-primary-light text-primary-dark font-medium hover:underline"
+                    aria-label="About Me"
+                >To About Me &rarr;</Link>
+            </div>
+            <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                    ease: 'easeInOut',
+                    duration: 0.5,
+                    delay: 0.1,
+                }}
+                className="flex flex-col-reverse lg:flex-row mt-5">
+                <ContactDetails />
+            </motion.div>
+		</div>
 	);
 };
 

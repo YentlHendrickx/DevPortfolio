@@ -2,6 +2,7 @@ import {
 	FiGithub,
 	FiTwitter,
 	FiLinkedin,
+	FiMail,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -21,6 +22,11 @@ const socials = [
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/yentl-hendrickx-3a3533223',
     },
+	{
+		id: 4,
+		icon: <FiMail />,
+		url: 'mailto:yentlhendrickx@outlook.com',
+	},
 ];
 
 const AppFooter = () => {

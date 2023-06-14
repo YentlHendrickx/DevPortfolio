@@ -6,6 +6,13 @@ import Button from "../reusable/Button";
 
 import VPSA from '../../../src/images/vpsa.jpeg';
 
+// Docs
+import pva from '../../../src/docs/Plan_Van_Aanpak.pdf';
+import realisatie from '../../../src/docs/Realisatie_Verslag.pdf';
+import reflectie from '../../../src/docs/Reflectie_Verslag.pdf';
+import awsFlow from '../../../src/docs/aws_flow.pdf';
+
+
 const fadeOnVisible = {
     visible: { opacity: 1,  x: 0, transition: { duration: 1 } },
     hidden: { opacity: 0, x: -200 },
@@ -57,11 +64,29 @@ const InternshipHome = () => {
                     <div className="w-full flex justify-center md:block">
                         <img src={VPSA} className="rounded-lg w-48 md:w-full object-fit" alt="" />
                     </div>
+                    <div className="col-span-4 my-4 sm:mt-10 justify-center">
+                        <h3 className="text-center dark:text-primary-light text-primary-dark text-lg mt-5">Documents (Dutch)</h3>
+                        <hr className="dark:border-secondary-dark border-primary-light mb-1"/>
+                        <ul>
+                            <li>
+                                <a className="dark:text-primary-light text-primary-dark font-bold hover:underline" href={pva} alt="Plan van Aanpak" target="_blank" rel="noreferrer">Plan van Aanpak</a>
+                            </li>
+                            <li>
+                                <a className="dark:text-primary-light text-primary-dark font-bold hover:underline" href={realisatie} alt="Realisatie Verslag" target="_blank" rel="noreferrer">Realisatie Verslag</a>
+                            </li>
+                            <li>
+                                <a className="dark:text-primary-light text-primary-dark font-bold hover:underline" href={reflectie} alt="Reflectie Verslag" target="_blank" rel="noreferrer">Reflectie Verslag</a>
+                            </li>
+                            <li>
+                                <a className="dark:text-primary-light text-primary-dark font-bold hover:underline" href={awsFlow} alt="AWS Workflow" target="_blank" rel="noreferrer">AWS Hosting Documentation (English)</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div className="col-span-4 mt-8 sm:mt-10 flex justify-center">
                         <Link
                             to="/internship"
                             className="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
-                            aria-label="More Projects"
+                            aria-label="More Info"
                         >
                             <Button title="More Info" />
                         </Link>

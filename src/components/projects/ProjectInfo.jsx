@@ -22,10 +22,7 @@ const ProjectInfo = () => {
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
 						{singleProjectData.ProjectInfo.Technologies[0].title}
 					</p>
-					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-						{singleProjectData.ProjectInfo.Technologies[0].techs.join(
-							', '
-						)}
+					<p className="font-general-regular text-4xl dark:text-primary-light text-primary-dark" dangerouslySetInnerHTML={{__html: singleProjectData.ProjectInfo.Technologies[0].techs}}>
 					</p>
 				</div>
 
@@ -63,7 +60,7 @@ const ProjectInfo = () => {
 				</p>
 				{singleProjectData.ProjectInfo.ProjectDetails.map((details) => {
 					return (
-                        <div dangerouslySetInnerHTML={{__html: details.details}} >
+                        <div key={details.id} dangerouslySetInnerHTML={{__html: details.details}} >
                         </div>
 					);
 				})}

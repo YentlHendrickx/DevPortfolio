@@ -6,7 +6,13 @@ const SingleProjectContext = createContext();
 
 export const SingleProjectProvider = ({ children }) => {
 
-    const { id } = useParams();
+    let { id } = useParams();
+
+	if (singleProjectDataJson[id - 1] === undefined) {
+		id = 1;
+		window.location.href = "/projects/single-project/" + id;
+	}
+	console.log(id);
 
 	const [singleProjectData, setSingleProjectData] = useState(
 		singleProjectDataJson[id - 1]

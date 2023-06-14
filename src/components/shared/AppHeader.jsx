@@ -28,9 +28,9 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme !== 'dark' ? (
-                                <h1 class="text-xl text-white font-bold">Home</h1>
+                                <h1 className="text-xl text-white font-bold">Home</h1>
 							) : (
-                                <h1 class="text-xl text-black font-bold">Home</h1>
+                                <h1 className="text-xl text-black font-bold">Home</h1>
 							)}
 						</Link>
 					</div>
